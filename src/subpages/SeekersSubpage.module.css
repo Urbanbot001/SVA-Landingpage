@@ -209,23 +209,23 @@
   }
   
   .imageWrapperExpert {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     overflow: hidden;
     border-radius: 50%; /* Makes the images circular */
     position: relative;
     margin-top: 12rem;
-    right: 18rem;
+    right: 3rem;
   }
 
   .imageWrapperSeeker {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     overflow: hidden;
     border-radius: 50%; /* Makes the images circular */
     position: relative;
-    margin-top: -22rem;
-    left: 18rem;
+    margin-top: -31rem;
+    left: 28rem;
   }
   
   .sliderImages, 
@@ -235,4 +235,22 @@
     object-fit: cover; /* Ensures images fill their containers */
   }
 
+  .expertText {
+    right: 10rem;
+    margin-top: 1rem; /* Adds space between the image and the text */
+    font-size: 32px; /* Adjust font size */
+    font-weight: bold; /* Make the text bold */
+    color: #192549; /* Adjust text color */
+    font-family: 'EB Garamond', serif;
+  }
+
+  .seekersText {
+    margin-left: 34rem;
+    margin-top: 1rem; /* Adds space between the image and the text */
+    font-size: 32px; /* Adjust font size */
+    font-weight: bold; /* Make the text bold */
+    color: #192549; /* Adjust text color */
+    font-family: 'EB Garamond', serif;
+  }
   
+ 

@@ -6,11 +6,14 @@ const Form = () => {
   const navigate = useNavigate(); // Initialize useNavigate
 
   const handleRoleChange = (event) => {
-    if (event.target.value === "SeekersPage") {
+    const selectedPage = event.target.value;
+    if (selectedPage === "SeekersPage") {
       navigate('/seekerspage'); // Navigate to the seekers page
+    } else if (selectedPage === "ExpertsPage") {
+      navigate('/expertspage'); // Navigate to the experts page
     }
   };
-
+  
   return (
     <div className={styles.container}>
       <div className={styles.formContainer}>
@@ -39,7 +42,8 @@ const Form = () => {
               <input
                 type="radio"
                 name="role"
-                value="Experts"
+                value="ExpertsPage"
+                onClick={handleRoleChange} // Call the handleRoleChange function
               />
               Experts
             </label>
