@@ -1,11 +1,14 @@
 /* Container */
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fbeedb; /* Light beige background */
-    padding: 40px;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #FBEBD6;
+  padding: 40px;
+  height: 100vh;
+  overflow-y: auto;
+  box-sizing: border-box;
   }
   
   /* Content Wrapper */
@@ -101,17 +104,28 @@
   }
   
   .heading {
-    font-family: "EB Garamond", serif;
+    font-family: 'EB Garamond', serif;
     font-size: 2rem;
-    color: #9e2a2b; /* Red color for the heading */
+    color: #951829; /* Svaveda red for the heading */
     margin-bottom: 16px;
+    width: 671px;
+    height: 36px;
+    margin-right: -25rem;
+  }
+
+  .heading1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 24px;
+    height: 36px;
+    color: #951829; /* Svaveda red for the heading */
+    margin-bottom: 2px;
   }
   
   .description {
-    font-family: "EB Garamond", serif;
-    font-size: 1.125rem;
-    color: #333; /* Dark text color */
-    line-height: 1.75rem;
+    font-family: 'Rubik', serif;
+    font-size: 24px;
+    color: #192549; 
+    line-height: 36px;
   }
 
   /* Overlay Container */
@@ -173,4 +187,52 @@
     height: 60%; /* Adjust size relative to the container */
     z-index: 2;
   }
+
+  .versatileListings {
+    display: block;
+    margin-top: 8rem; 
+  }
+  
+  .increasedEfficiency {
+    display: block;
+    margin-top: 18rem; 
+  }
+
+  /* Card-section */
+  .expert-seeker-section {
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers the items horizontally */
+    align-items: center; /* Centers the items vertically */
+    gap: 2rem; /* Adds space between the two image wrappers */
+    padding: 2rem 0;
+    margin-top: 0; /* Reset margin to align properly */
+  }
+  
+  .imageWrapperExpert {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 50%; /* Makes the images circular */
+    position: relative;
+    margin-top: 12rem;
+    right: 18rem;
+  }
+
+  .imageWrapperSeeker {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 50%; /* Makes the images circular */
+    position: relative;
+    margin-top: -22rem;
+    left: 18rem;
+  }
+  
+  .sliderImages, 
+  .slidingImages {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures images fill their containers */
+  }
+
   
