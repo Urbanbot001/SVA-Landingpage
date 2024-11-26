@@ -15,6 +15,11 @@ import ExpertsSubpagethree from './subpages/ExpertsSubpagethree'; // Experts sub
 import ExpertsSubpagefour from './subpages/ExpertsSubpagefour'; // Experts subpage four
 import ExpertsSubpagefive from './subpages/ExpertsSubpagefive'; // Experts subpage five
 import Section from './subpages/Section'; // Section
+import DarkTheme from './subpages/DarkTheme'; // DarkTheme
+import DarkThemetwo from './subpages/DarkThemetwo'; // DarkThemetwo
+import DarkThemethree from './subpages/DarkThemethree'; // DarkThemethree
+import DarkThemefour from './subpages/DarkThemefour'; // DarkThemefour
+
 
 const App = () => {
   return (
@@ -38,6 +43,10 @@ const App = () => {
       <Route path="/expertssubpagefour" element={<ExpertsSubpagefour />} />
       <Route path="/expertssubpagefive" element={<ExpertsSubpagefive />} />
       <Route path="/section" element={<Section />} />
+      <Route path="/darktheme" element={<DarkTheme />} />
+      <Route path="/darkthemetwo" element={<DarkThemetwo />} />
+      <Route path="/darkthemethree" element={<DarkThemethree />} />
+      <Route path="/darkthemefour" element={<DarkThemefour />} />
     </Routes>
   );
 };
