@@ -1,20 +1,20 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./DarkThemefour.css";
+import "./SunTheme.css";
 
-const DarkThemefour = () => {
+const SunTheme = () => {
   const navigate = useNavigate(); // Initialize useNavigate
 
   const handleRoleChange = () => {
-    navigate("/herosection");
+    navigate("/suntheme");
   };
   return (
-    <div className="dark-container">
+    <div className="light-container">
       <div onClick={handleRoleChange} className="linkDiv">
-        <img src="/Group_hot.png" alt="Sun" className="sun-imagefour" />
+        <img src="/sun_new.png" alt="Sun" className="sun-imagefour" />
       </div>
     </div>
   );
 };
 
-export default DarkThemefour;
+export default SunTheme;

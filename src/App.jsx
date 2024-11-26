@@ -19,6 +19,8 @@ import DarkTheme from './subpages/DarkTheme'; // DarkTheme
 import DarkThemetwo from './subpages/DarkThemetwo'; // DarkThemetwo
 import DarkThemethree from './subpages/DarkThemethree'; // DarkThemethree
 import DarkThemefour from './subpages/DarkThemefour'; // DarkThemefour
+import HeroSection from './subpages/HeroSection'; // Hero Section
+import SunTheme from './subpages/SunTheme'; // Sun Theme
 
 
 const App = () => {
@@ -47,6 +49,8 @@ const App = () => {
       <Route path="/darkthemetwo" element={<DarkThemetwo />} />
       <Route path="/darkthemethree" element={<DarkThemethree />} />
       <Route path="/darkthemefour" element={<DarkThemefour />} />
+      <Route path="/herosection" element={<HeroSection />} />
+      <Route path="/suntheme" element={<SunTheme />} />
     </Routes>
   );
 };
