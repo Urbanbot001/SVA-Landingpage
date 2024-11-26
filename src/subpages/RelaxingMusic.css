@@ -1,0 +1,62 @@
+/* General Styles */
+.caption {
+    color: #951A29;
+    font-family: 'EB Garamond', serif;
+    font-size: 28px;
+    text-align: center;
+    
+  }
+  
+  .carousel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .images-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%; /* Adjust the width for a responsive layout */
+    gap: 30px;
+    overflow: hidden; /* Hide excess content during animation */
+  }
+  
+  .image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px; /* Maintains your specified size */
+    height: 250px;
+    overflow: hidden;
+    border-radius: 20px;
+    perspective: 2000px; /* Keeps the 3D effect */
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out; /* Smooth animations */
+    opacity: 0.5; /* Dim non-active images */
+  }
+  
+  .image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image scales properly */
+  }
+  
+  /* Left Image - Curved */
+  .image-wrapper.left {
+    transform: rotateY(40deg);
+  }
+  
+  /* Center Image - Flat */
+  .image-wrapper.center {
+    transform: rotateY(0);
+    opacity: 1; /* Full opacity for the active image */
+  }
+  
+  /* Right Image - Curved */
+  .image-wrapper.right {
+    transform: rotateY(-40deg);
+  }
+  

@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import RelaxingMusic from './RelaxingMusic';
+import RelaxingActivities from './RelaxingActivities';
 import styles from "./SeekersSubpage.module.css";
 import "./HeroSection.css";
 
@@ -555,6 +557,13 @@ const SeekersSubpage = () => {
       <p className="hero-subtitle">Choose Your Path of Evolution With SvaVeda</p>
       <div className="hero-divider">|</div>
       <h1 className="hero-title">Maximizing Value for Experts and Seekers</h1>
+      <div>
+      <RelaxingMusic />
+    </div>
+    <p className="hero-subtitle2">Pause and Refresh</p>
+      <div className="hero-divider">|</div>
+      <h1 className="hero-title">A Brief and Serene Break Can Restore Your Balance and Peace</h1>
+      <RelaxingActivities />
     </div>
   );
 };
