@@ -6,7 +6,7 @@ const ExpertsPage = () => {
   const navigate = useNavigate(); // Initialize useNavigate
 
   const handleRoleChange = () => {
-    navigate("/expertssubpage"); // Navigate to the experts subpage
+    navigate("/expertssubpageone"); // Navigate to the experts subpage
   };
 
   const images = [

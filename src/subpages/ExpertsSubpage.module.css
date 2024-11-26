@@ -221,10 +221,16 @@
 
 .versatileListings {
     display: block;
-    margin-top: 8rem;
+    margin-top: 6rem;
 }
 
-.increasedEfficiency {
-    display: block;
-    margin-top: 18rem;
-}
+.linkDiv {
+    display: inline-block;
+    /* Allows content alignment like a button */
+    cursor: pointer;
+    /* Makes the mouse pointer change to a hand icon */
+    border-radius: 5px;
+    /* Optional: Add rounded corners */
+    transition: background-color 0.3s ease;
+    /* Smooth hover effect */
+  }

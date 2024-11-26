@@ -6,7 +6,7 @@ const SeekersPage = () => {
   const navigate = useNavigate(); // Initialize useNavigate
 
   const handleRoleChange = () => {
-    navigate('/seekerssubpage'); // Navigate to the seekers subpage
+    navigate('/seekerssubpagetwo'); // Navigate to the seekers subpage
   };
 
   const images = [
