@@ -10,7 +10,7 @@
   }
     
   /* Circle styles */
-  .circle {
+  .half-circle {
     width: 900px;
     height: 450px; /* Half of the height for a semi-circle */
     background-color: #9d1d22;
@@ -26,7 +26,7 @@
   }
     
   /* Text styles */
-  .text {
+  .textsection {
     color: #ffffff;
     text-align: center;
     font-family: 'EB Garamond', serif;

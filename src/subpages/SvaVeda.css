@@ -1,5 +1,5 @@
 /* SvaVeda.css */
-.svaVeda-container {
+.svaVeda-containerveda {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,53 +8,63 @@
     padding: 20px;
   }
   
-  .svaVeda-content {
+  .svaVeda-contentveda {
     display: flex;
     align-items: center;
     max-width: 1200px;
   }
   
-  .image-container {
+  .image-containerveda {
     position: relative;
     width: 300px;
     height: 300px;
   }
   
-  .circle-image {
+  .circle-imageveda {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
+    z-index: 2;
+    position: relative;
   }
   
-  .decorative-pattern {
+  .decorative-patternveda {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 61%;
     transform: translate(-50%, -50%);
-    width: 350px;
-    height: 350px;
-    background: transparent;
+    width: 300px; /* Adjust the width to resize */
+    height: 300px; /* Adjust the height to resize */
+    background-color: #f4d09c;
     border-radius: 50%;
-    border: 2px solid rgba(0, 0, 0, 0.1);
-    z-index: -1; /* Send behind the image */
+    z-index: 1;
   }
   
-  .text-content {
-    margin-left: 40px;
+  .pattern-imageveda {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    opacity: 0.2; /* Slightly faded for subtle effect */
+  }
+  
+  .text-contentveda {
+    margin-left: 80px;
     max-width: 500px;
   }
   
-  .text-content h2 {
-    font-family: 'Serif', serif;
+  .text-contentveda h2 {
+    font-family: 'Roxborough CF', serif;
     font-size: 28px;
-    color: #7a1920; /* Dark red color */
+    color: #951a29; /* Dark red color */
   }
   
-  .text-content p {
-    font-family: 'Serif', serif;
+  .text-contentveda p {
+    font-family: 'EB Garamond', serif;
     font-size: 18px;
-    color: #7a1920; /* Dark red color */
+    color: #951a29; /* Dark red color */
     line-height: 1.6;
   }
+  
   

@@ -10,9 +10,9 @@ const Section = () => {
   };
   return (
     <div className="container">
-      <div className="circle">
+      <div className="half-circle">
       <div onClick={handleRoleChange} className="linkDiv">
-          <p className="text">
+          <p className="textsection">
             Step Into Well being and be <br /> your true self
           </p>
         </div>

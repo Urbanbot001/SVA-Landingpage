@@ -21,12 +21,17 @@ import DarkThemethree from './subpages/DarkThemethree'; // DarkThemethree
 import DarkThemefour from './subpages/DarkThemefour'; // DarkThemefour
 import HeroSection from './subpages/HeroSection'; // Hero Section
 import HeroSectiontwo from './subpages/HeroSectiontwo'; // Hero Section Two
+import HeroSectionthree from './subpages/HeroSectionthree'; // Hero Section Three
+import HeroSectionfour from './subpages/HeroSectionfour'; // Hero Section Four
 import SunTheme from './subpages/SunTheme'; // Sun Theme
 import IconOverlay from './subpages/IconOverlay'; // Icon Overlay
 import IconOverlaytwo from './subpages/IconOverlaytwo'; // Icon Overlaytwo
 import IconOverlaythree from './subpages/IconOverlaythree'; // Icon Overlaythree
 import IconOverlayfour from './subpages/IconOverlayfour'; // Icon Overlayfour
 import SvaVeda from './subpages/SvaVeda'; // SvaVeda page
+import SvaVedatwo from './subpages/SvaVedatwo'; // SvaVeda page Two
+import Sanctuary from './subpages/Sanctuary';
+import Sanctuarytwo from './subpages/Sanctuarytwo';
 
 
 
@@ -58,12 +63,17 @@ const App = () => {
       <Route path="/darkthemefour" element={<DarkThemefour />} />
       <Route path="/herosection" element={<HeroSection />} />
       <Route path="/herosectiontwo" element={<HeroSectiontwo />} />
+      <Route path="/herosectionthree" element={<HeroSectionthree />} />
+      <Route path="/herosectionfour" element={<HeroSectionfour />} />
       <Route path="/suntheme" element={<SunTheme />} />
       <Route path="/iconoverlay" element={<IconOverlay />} />
       <Route path="/iconoverlaytwo" element={<IconOverlaytwo />} />
       <Route path="/iconoverlaythree" element={<IconOverlaythree />} />
       <Route path="/iconoverlayfour" element={<IconOverlayfour />} />
       <Route path="/svaveda" element={<SvaVeda />} />
+      <Route path="/svavedatwo" element={<SvaVedatwo />} />
+      <Route path="/sanctuary" element={<Sanctuary />} />
+      <Route path="/sanctuarytwo" element={<Sanctuarytwo />} />
     </Routes>
   );
 };
