@@ -28,10 +28,11 @@ import IconOverlay from './subpages/IconOverlay'; // Icon Overlay
 import IconOverlaytwo from './subpages/IconOverlaytwo'; // Icon Overlaytwo
 import IconOverlaythree from './subpages/IconOverlaythree'; // Icon Overlaythree
 import IconOverlayfour from './subpages/IconOverlayfour'; // Icon Overlayfour
-import SvaVeda from './subpages/SvaVeda'; // SvaVeda page
 import SvaVedatwo from './subpages/SvaVedatwo'; // SvaVeda page Two
 import Sanctuary from './subpages/Sanctuary';
 import Sanctuarytwo from './subpages/Sanctuarytwo';
+import WellnessExperts from './subpages/WellnessExperts';
+import SvaVeda from './subpages/SvaVeda';
 
 
 
@@ -74,6 +75,7 @@ const App = () => {
       <Route path="/svavedatwo" element={<SvaVedatwo />} />
       <Route path="/sanctuary" element={<Sanctuary />} />
       <Route path="/sanctuarytwo" element={<Sanctuarytwo />} />
+      <Route path="/wellnessexperts" element={<WellnessExperts />} />
     </Routes>
   );
 };
