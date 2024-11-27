@@ -474,9 +474,7 @@ const SeekersSubpage = () => {
         </div>
         <p className={styles.seekersText}>Are You A Seeker?</p>
       </div>
-      <p className="hero-subtitle">Choose Your Path of Evolution With SvaVeda</p>
-      <div className="hero-divider">|</div>
-      <h1 className="hero-title">Maximizing Value for Experts and Seekers</h1>
+      
       <div>
       <RelaxingMusic />
     </div>

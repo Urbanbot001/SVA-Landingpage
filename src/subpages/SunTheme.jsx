@@ -6,7 +6,7 @@ const SunTheme = () => {
   const navigate = useNavigate(); // Initialize useNavigate
 
   const handleRoleChange = () => {
-    navigate("/suntheme");
+    navigate("/iconoverlay");
   };
   return (
     <div className="light-container">

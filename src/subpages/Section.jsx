@@ -6,7 +6,7 @@ const Section = () => {
   const navigate = useNavigate(); // Initialize useNavigate
 
   const handleRoleChange = () => {
-    navigate("/darktheme"); // Navigate to the experts subpage
+    navigate("/darktheme"); 
   };
   return (
     <div className="container">
