@@ -37,6 +37,8 @@ import WellnessSeekers from './subpages/WellnessSeekers';
 import HeroSectionfive from './subpages/HeroSectionfive';
 import PhysicalWellbeing from './subpages/PhysicalWellbeing';
 import HeroSectionsix from './subpages/HeroSectionsix';
+import WellnessServices from './subpages/WellnessServices ';
+import WellnessServicestwo from './subpages/WellnessServicestwo ';
 
 
 
@@ -84,6 +86,8 @@ const App = () => {
       <Route path="/herosectionfive" element={<HeroSectionfive />} />
       <Route path="/physicalwellbeing" element={<PhysicalWellbeing />} />
       <Route path="/herosectionsix" element={<HeroSectionsix />} />
+      <Route path="/wellnessservices" element={<WellnessServices />} />
+      <Route path="/wellnessservicestwo" element={<WellnessServicestwo />} />
     </Routes>
   );
 };

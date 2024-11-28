@@ -6,7 +6,7 @@ const HeroSectionsix = () => {
   const navigate = useNavigate(); // Initialize useNavigate
 
   const handleRoleChange = () => {
-    navigate("/herosectionsix");
+    navigate("/wellnessservices");
   };
   return (
     <div className="hero-container">
