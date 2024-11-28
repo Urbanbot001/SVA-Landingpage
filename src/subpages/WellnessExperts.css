@@ -19,7 +19,7 @@
     justify-content: center;
     align-items: center; /* Center content inside the circle */
     background: #f4d09c;
-    margin-right: auto; /* Push circle to the far left */
+    margin-left: 10rem; /* Push circle to the far left */
   }
   
   /* Circle image */

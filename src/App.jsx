@@ -33,6 +33,10 @@ import Sanctuary from './subpages/Sanctuary';
 import Sanctuarytwo from './subpages/Sanctuarytwo';
 import WellnessExperts from './subpages/WellnessExperts';
 import SvaVeda from './subpages/SvaVeda';
+import WellnessSeekers from './subpages/WellnessSeekers';
+import HeroSectionfive from './subpages/HeroSectionfive';
+import PhysicalWellbeing from './subpages/PhysicalWellbeing';
+import HeroSectionsix from './subpages/HeroSectionsix';
 
 
 
@@ -76,6 +80,10 @@ const App = () => {
       <Route path="/sanctuary" element={<Sanctuary />} />
       <Route path="/sanctuarytwo" element={<Sanctuarytwo />} />
       <Route path="/wellnessexperts" element={<WellnessExperts />} />
+      <Route path="/wellnessseekers" element={<WellnessSeekers />} />
+      <Route path="/herosectionfive" element={<HeroSectionfive />} />
+      <Route path="/physicalwellbeing" element={<PhysicalWellbeing />} />
+      <Route path="/herosectionsix" element={<HeroSectionsix />} />
     </Routes>
   );
 };
