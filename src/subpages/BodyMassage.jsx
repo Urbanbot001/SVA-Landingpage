@@ -20,16 +20,14 @@ const BodyMassage = () => {
       </div>
       </div>
       <div className="imagemassage-wrapper">
-      <div onClick={handleRoleChange} className="linkDiv">
         <img
           src="women_candle.jpg"
           alt="Meditation session"
           className="imagemassage"
         />
       </div>
-      </div>
       <div className="imagemassage-wrapper">
-      <div onClick={handleRoleChange} className="linkDiv">
+        <div onClick={handleRoleChange} className="linkDiv">
         <img
           src="woman and man_bodymassage.jpg"
           alt="Relaxing massage"
@@ -38,22 +36,18 @@ const BodyMassage = () => {
       </div>
       </div>
       <div className="imagemassage-wrapper">
-      <div onClick={handleRoleChange} className="linkDiv">
         <img
           src="women_under shed.jpg"
           alt="Outdoor yoga session"
           className="imagemassage"
         />
       </div>
-      </div>
       <div className="imagemassagebackground-wrapper">
-      <div onClick={handleRoleChange} className="linkDiv">
   <div className="imagemassagebackground">
     <p className="overlayimagemassage-text">Ready to be a part of our Community?</p>
   </div>
 </div>
 </div>
-    </div>
   );
 };
 

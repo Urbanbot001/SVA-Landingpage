@@ -12,10 +12,10 @@ const HeroSectioneight = () => {
     <div className="hero-container">
       <div onClick={handleRoleChange} className="linkDiv">
         <p className="herothree-subtitle">
-        An Array of Programs to Support Healing and <br />Advancement
+        Pause and Refresh
         </p>
         <div className="hero-divider">|</div>
-        <h1 className="herothree-title">Programs We Cover</h1>
+        <h1 className="herothree-title">A Brief and Serene Break Can Restore <br /> Your Balance and Peace</h1>
       </div>
     </div>
   );
