@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 .wellness-container {
     display: flex;
     flex-wrap: wrap;
@@ -37,9 +38,9 @@
   
   .service-item p {
     margin-top: 8px;
-    font-family: "Georgia", serif;
+    font-family: "EB Garamond", serif;
     font-size: 14px;
-    color: #a9442f;
+    color: #951a29;
   }
   
   .coaching {

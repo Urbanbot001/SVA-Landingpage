@@ -39,6 +39,7 @@ import PhysicalWellbeing from './subpages/PhysicalWellbeing';
 import HeroSectionsix from './subpages/HeroSectionsix';
 import WellnessServices from './subpages/WellnessServices ';
 import WellnessServicestwo from './subpages/WellnessServicestwo ';
+import HeroSectionseven from './subpages/HeroSectionseven';
 
 
 
@@ -88,6 +89,7 @@ const App = () => {
       <Route path="/herosectionsix" element={<HeroSectionsix />} />
       <Route path="/wellnessservices" element={<WellnessServices />} />
       <Route path="/wellnessservicestwo" element={<WellnessServicestwo />} />
+      <Route path="/herosectionseven" element={<HeroSectionseven />} />
     </Routes>
   );
 };

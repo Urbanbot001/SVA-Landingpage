@@ -6,22 +6,22 @@ const WellnessServicestwo = () => {
   const navigate = useNavigate(); // Initialize useNavigate
 
   const handleRoleChange = () => {
-    navigate("/wellnessservicestwo");
+    navigate("/herosectionseven");
   };
   return (
     <div className="wellness-container">
       <div className="central-background">
-      <div onClick={handleRoleChange} className="linkDiv">
-  <div className="text-overlay">
-    <p>Reiki</p>
-  <p>Sound Healing</p>
-  <p>Pranic Healing</p>
-  <p>Chakra Balancing </p>
-  <p>Aura Cleansing </p>
-  <p>Quantum Healing</p>
-  </div>
-</div>
-</div>
+        <div onClick={handleRoleChange} className="linkDiv">
+          <div className="text-overlay">
+            <p>Reiki</p>
+            <p>Sound Healing</p>
+            <p>Pranic Healing</p>
+            <p>Chakra Balancing </p>
+            <p>Aura Cleansing </p>
+            <p>Quantum Healing</p>
+          </div>
+        </div>
+      </div>
       <div className="service-item coaching">
         <img src="woman_with_tarots.jpg" alt="Life Coaching" />
         <p>Esoteric Practices</p>
