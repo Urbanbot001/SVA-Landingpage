@@ -10,15 +10,15 @@ const WellnessExperts = () => {
   };
 
   return (
-    <div className="wellness-container">
+    <div className="wellnessexperts-container">
       <div onClick={handleRoleChange} className="linkDiv">
-        <div className="circle-container">
+        <div className="circleexperts-container">
           <img
             src="/yoga_teacher2.jpg" // Replace with your image path
             alt="Wellness Experts"
-            className="circle-image"
+            className="circleexperts-image"
           />
-          <div className="text-overlay">Wellness Experts</div>
+          <div className="textexperts-overlay">Wellness Experts</div>
         </div>
       </div>
     </div>

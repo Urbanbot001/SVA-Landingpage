@@ -40,6 +40,8 @@ import HeroSectionsix from './subpages/HeroSectionsix';
 import WellnessServices from './subpages/WellnessServices ';
 import WellnessServicestwo from './subpages/WellnessServicestwo ';
 import HeroSectionseven from './subpages/HeroSectionseven';
+import BodyMassage from './subpages/BodyMassage';
+import HeroSectioneight from './subpages/HeroSectioneight';
 
 
 
@@ -90,6 +92,8 @@ const App = () => {
       <Route path="/wellnessservices" element={<WellnessServices />} />
       <Route path="/wellnessservicestwo" element={<WellnessServicestwo />} />
       <Route path="/herosectionseven" element={<HeroSectionseven />} />
+      <Route path="/bodymassage" element={<BodyMassage />} />
+      <Route path="/herosectioneight" element={<HeroSectioneight />} />
     </Routes>
   );
 };

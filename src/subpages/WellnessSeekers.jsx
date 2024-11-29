@@ -16,9 +16,9 @@ const WellnessSeekers = () => {
           <img
             src="/wellness_seekers.jpg" 
             alt="Wellness Seekers"
-            className="circle-image"
+            className="circle-imageseekers"
           />
-          <div className="text-overlay">Wellness Seekers</div>
+          <div className="textseekers-overlay">Wellness Seekers</div>
         </div>
       </div>
     </div>

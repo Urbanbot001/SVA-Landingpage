@@ -1,5 +1,5 @@
 /* Main container */
-.wellness-container {
+.wellnessexperts-container {
     display: flex;
     justify-content: flex-start; /* Shift content to the left */
     align-items: center;
@@ -9,7 +9,7 @@
   }
   
   /* Circle container */
-  .circle-container {
+  .circleexperts-container {
     position: relative;
     width: 400px; /* Adjust the size of the circle */
     height: 400px;
@@ -23,14 +23,14 @@
   }
   
   /* Circle image */
-  .circle-image {
+  .circleexperts-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
   
   /* Text overlay */
-  .text-overlay {
+  .textexperts-overlay {
     position: absolute;
     font-family: "EB Garamond", serif;
     font-size: 40px;
