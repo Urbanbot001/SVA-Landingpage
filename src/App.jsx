@@ -2,7 +2,6 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Form from './components/Form/Form'; // Main landing page
 import SeekersPage from './pages/SeekersPage'; // Seekers page
-import SeekersSubpage from './subpages/SeekersSubpage'; // Seekers subpage
 import SeekersSubpagetwo from './subpages/SeekersSubpagetwo'; // Seekers subpage two
 import SeekersSubpagethree from './subpages/SeekersSubpagethree'; // Seekers subpage three
 import SeekersSubpagefour from './subpages/SeekersSubpagefour'; // Seekers subpage four
@@ -42,6 +41,9 @@ import WellnessServicestwo from './subpages/WellnessServicestwo ';
 import HeroSectionseven from './subpages/HeroSectionseven';
 import BodyMassage from './subpages/BodyMassage';
 import HeroSectioneight from './subpages/HeroSectioneight';
+import CarouselPage from './subpages/CarouselPage';
+import HeroSectionnine from './subpages/HeroSectionnine';
+import ExpertSeeker from './subpages/ExpertSeeker';
 
 
 
@@ -54,7 +56,6 @@ const App = () => {
       {/* Other routes */}
       <Route path="/form" element={<Form />} />
       <Route path="/seekerspage" element={<SeekersPage />} />
-      <Route path="/seekerssubpage" element={<SeekersSubpage />} />
       <Route path="/seekerssubpagetwo" element={<SeekersSubpagetwo />} />
       <Route path="/seekerssubpagethree" element={<SeekersSubpagethree />} />
       <Route path="/seekerssubpagefour" element={<SeekersSubpagefour />} />
@@ -94,6 +95,9 @@ const App = () => {
       <Route path="/herosectionseven" element={<HeroSectionseven />} />
       <Route path="/bodymassage" element={<BodyMassage />} />
       <Route path="/herosectioneight" element={<HeroSectioneight />} />
+      <Route path="/carouselpage" element={<CarouselPage />} />
+      <Route path="/herosectionnine" element={<HeroSectionnine />} />
+      <Route path="/expertseeker" element={<ExpertSeeker />} />
     </Routes>
   );
 };
